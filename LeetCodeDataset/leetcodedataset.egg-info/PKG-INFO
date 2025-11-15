@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: leetcodedataset
+Version: 0.1.1
+Summary: LeetCodeDataset
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: fire
+Requires-Dist: numpy
+Requires-Dist: tempdir
+Requires-Dist: wget
+Requires-Dist: appdirs
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

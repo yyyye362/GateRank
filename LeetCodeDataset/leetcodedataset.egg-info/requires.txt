@@ -1,0 +1,6 @@
+tqdm
+fire
+numpy
+tempdir
+wget
+appdirs

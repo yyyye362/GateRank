@@ -1,0 +1,3 @@
+[console_scripts]
+eval_lcd = eval_lcd.evaluate:cli
+evaluate_functional_correctness = eval_lcd.evaluate_functional_correctness:main
