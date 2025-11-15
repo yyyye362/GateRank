@@ -76,20 +76,20 @@ python train_rank_model.py
 The retrieval module in GateRank is responsible for extracting external code knowledge candidates used to augment the generation process:
 <pre>
 python retrieve.py
-<\pre>
+</pre>
 
-
+ 
 ## ✨ Generating
-
 Generate results for different fine-tuning model:
 <pre>
 python train_class_model.py --mode infer
 python rank_run.py
-python generate_skeleton.py
+python generate.py
 </pre>
 
-## 📊 Evaluate
 
+
+## 📊 Evaluate
 You can run "test_one_solution.sh" to evaluate the functional correctness and pass count of the generated code:
 <pre>
 cd evaluate/metric
